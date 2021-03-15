@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.message{
+	color:grey;
+	position: absolute;
+	text-align: center;
+	top:20vh;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.redirect_message{
+	color:blue;
+	position: absolute;
+	text-align: center;
+	top:25vh;
+	left:50%;
+	transform: translateX(-50%);
+}

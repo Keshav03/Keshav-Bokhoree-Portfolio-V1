@@ -1,0 +1,1281 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    header img {
+        position: absolute;
+        z-index: 1;
+        width: 90px;
+        height: 90px;
+        left: 50%;
+        transform: translate(-50%, 0%)
+    }
+    .left-nav ul li {
+        text-decoration: none;
+        display: inline;
+        float: left;
+        font-size: 15pt;
+        padding: 1.5% 4%;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .right-nav ul li {
+        text-decoration: none;
+        display: inline;
+        float: right;
+        font-size: 15pt;
+        padding: 1.5% 4%;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .left-nav a, .right-nav a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        z-index: 1;
+    }
+    .left-nav a:hover, .right-nav a:hover {
+        color: #009de2;
+    }
+    .aboutMe {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .photo {
+        width: 40%;
+        height: 500px;
+        float: left;
+    }
+    .photo img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .aboutMeDesc {
+        width: 60%;
+        height: 500px;
+        float: right;
+    }
+    .aboutMeDesc h2 {
+        color: black;
+        font-size: 20pt;
+        position: relative;
+        top: 25%;
+        left: 15%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        margin-right: 25%;
+    }
+    .aboutMeDesc strong {
+        color: #009de2;
+        text-transform: uppercase;
+    }
+    .aboutMeDesc hr {
+        width: 40%;
+        position: relative;
+        top: 26%;
+        left: 15%;
+    }
+    .aboutMeDesc p {
+        color: black;
+        font-size: 14pt;
+        position: relative;
+        top: 28%;
+        left: 15%;
+        margin-right: 25%;
+        font-family: 'Dosis';
+        font-weight: 500;
+    }
+    .Education {
+        width: 76%;
+        height: 700px;
+        position: relative;
+        left: 12%;
+    }
+    .Education h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .Education hr {
+        width: 100%;
+        color: black;
+    }
+    .mgssnf {
+        font-size: 15pt;
+        font-weight: 500;
+        position: relative;
+        margin-top: 2%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .alevel {
+        font-size: 15pt;
+        font-weight: bold;
+        position: relative;
+        padding-top: 0.5%;
+        font-family: 'Oswald';
+    }
+    #alevelyear {
+        font-size: 11pt;
+        position: absolute;
+        top: 120px;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #Maurtius {
+        font-size: 11pt;
+        position: absolute;
+        top: 150px;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #alevelmain {
+        position: absolute;
+        top: 25%;
+        font-family: 'PT Sans', ;
+        font-size: 13pt;
+    }
+    #alevelsubs {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-family: 'PT Sans', ;
+        font-size: 13pt;
+    }
+    .qmul {
+        font-size: 15pt;
+        font-weight: 500;
+        position: relative;
+        margin-top: 18%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .bsc {
+        font-size: 15pt;
+        font-weight: bold;
+        position: relative;
+        padding-top: 0.5%;
+        font-family: 'Oswald';
+    }
+    #bscyear {
+        font-size: 11pt;
+        position: absolute;
+        top: 370px;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #london {
+        font-size: 11pt;
+        position: absolute;
+        top: 400px;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #moduletitle {
+        font-family: 'PT Sans', ;
+        font-size: 13pt;
+    }
+    .Skills {
+        width: 76%;
+        height: 300px;
+        position: relative;
+        left: 12%;
+        padding-bottom: 50px;
+    }
+    .Skills h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .Skills hr {
+        width: 100%;
+        color: black;
+    }
+    .skill-col1 {
+        width: 50%;
+        position: absolute;
+        margin-left: 0%;
+        height: 80%
+    }
+    #html-bar, #css-bar, #javajs-bar, #photography, #java-bar, #adobe-bar {
+        width: 80%;
+        height: 20px;
+        margin-left: 10%;
+        background: lightgray;
+    }
+    .skill-col1 p {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15px;
+        font: 20pt;
+        text-transform: capitalize;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #htmlpercent {
+        width: 80%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #csspercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javascriptpercent {
+        width: 50%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #photogrpraphypercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javapercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #adobepercent {
+        width: 60%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #htmlpercent p, #csspercent p, #javascriptpercent p, #photogrpraphypercent p, #javapercent p, #adobepercent p {
+        position: relative;
+        width: 100%;
+        left: 80%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        font-weight: 800;
+    }
+    .skill-col2 {
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+        height: 100%
+    }
+    .skill-col2 p {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15px;
+        font: 20pt;
+        text-transform: capitalize;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #hoobies {
+        width: 76%;
+        height: 175px;
+        position: relative;
+        left: 12%;
+        padding: 50px 0px 25px 0px;
+    }
+    #hoobies h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #hoobies hr {
+        width: 100%;
+        color: black;
+    }
+    #hoobies ul {
+        padding: 25px 0px;
+    }
+    #resume {
+        width: 76%;
+        height: 300px;
+        position: relative;
+        left: 12%;
+        padding: 25px 0px;
+    }
+    #resume h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #resume hr {
+        width: 100%;
+        color: black;
+		
+    }
+	#resume a {
+		position: absolute;
+		top:50%;
+        color: #009de2;
+		text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+	
+	
+    footer {
+        width: 100%;
+        height: 190px;
+        background: #232020;
+        position: relative;
+        bottom: 0px;
+    }
+    .footer-icon ul li {
+        display: inline;
+        position: relative;
+        padding: 0.5%;
+        top: 40px;
+        left: 42%
+    }
+    footer nav ul li {
+        display: inline;
+        font-size: 10pt;
+        padding: 2%;
+        position: relative;
+        top: 50px;
+        left: 25%;
+        color: white;
+        text-transform: uppercase;
+    }
+    footer hr {
+        width: 80%;
+        position: relative;
+        top: 70px;
+        margin-left: 10%
+    }
+    footer p {
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 40%
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+    footer a li:hover {
+        color: #009de2;
+    }
+}
+@media screen and (max-device-width: 640px) and (orientation: portrait) {
+	
+    header {
+        width: 100%;
+        height: 70px;
+        background: black;
+        position: relative;
+    }
+    header img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 20px;
+        top: 10px
+    }
+	.hamburger{
+		position: absolute;
+		cursor:pointer;
+		right:5%;
+		top:50%;
+		transform: translate(-5%,-50%);
+		z-index: 2;
+	}
+	
+	.bar{
+		width: 36px;
+		height: 4px;
+		background: white;
+		display: block;
+		margin-bottom: 5px
+	}
+	
+	#my-links{
+		position: absolute;
+		background: black;
+		height: 100vh;
+		width: 100%;
+		z-index: 1;
+		text-align: center;
+		display:none;
+	}
+
+	.left-nav{
+		margin-top:40%		
+	}
+	
+	
+	#my-links li {
+		position: relative;
+		line-height: 50px;
+	}
+	
+	#my-links a{
+		color:white;
+		text-decoration: none;
+		font-size: 2em;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	.left-nav li a:active{
+		color:#009de2;
+		background: orange;
+	}
+	
+    .aboutMe {
+        width: 100%;
+        height: 725px;
+        position: relative;
+    }
+    .photo {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .photo img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .aboutMeDesc {
+		padding-top: 5%;
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .aboutMeDesc h2 {
+        color: black;
+        font-size: 1.5em;
+        position: absolute;
+		left:5%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .aboutMeDesc strong {
+        color: #009de2;
+        text-transform: uppercase;
+    }
+    .aboutMeDesc hr {
+        width: 90%;
+        position: relative;
+        top: 13%;
+		left: 5%;
+        border: solid 2px black;
+    }
+    .aboutMeDesc p {
+        width: 90%;
+        color: black;
+        font-size: 1.25em;
+        position: absolute;
+        left: 5%;
+		top:5%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        font-weight: 500;
+        padding: 15% 0% 0% 0%;
+    }
+    .Education {
+        width: 100%;
+        height: 700px;
+        position: relative;
+		padding:5% 0 0 0;
+    }
+    .Education h3 {
+        font-size: 1.4em;
+        position: absolute;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        left: 5%;
+		top:0%
+		
+    }
+    .Education hr {
+        width: 90%;
+		position: absolute;
+        left: 5%;
+		top:7%;
+        border: solid 2px black;
+    }
+    .mgssnf {
+        font-size: 1.2em;
+        font-weight:700;
+        position: absolute;
+		top:10%;
+		left:5%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .alevel {
+        font-size: 1.2em;
+        font-weight: 700;
+        position: absolute;
+		top:18%;
+		left:5%;
+        font-family: 'Oswald';
+    }
+    #alevelyear {
+        font-size: 1em;
+        position: absolute;
+        font-family: 'Montserrat';
+        top: 15%;
+        left: 70%
+    }
+    #Maurtius {
+        font-size: 1em;
+        top: 18%;
+        left: 70%;
+        position: absolute;
+        font-family: 'Montserrat';
+    }
+    #alevelmain {
+        position: absolute;
+        top: 20%;
+		left:5%;
+        font-family: 'PT Sans', ;
+        font-size: 1.1em;
+    }
+    #alevelsubs {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        font-family: 'PT Sans', ;
+        font-size: 1.1em;
+    }
+    .qmul {
+        font-size: 1.2em;
+        font-weight: 700;
+        position: absolute;
+		top:40%;
+		left:5%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .bsc {
+        font-size: 1.4em;
+        font-weight: 700;
+        position: absolute;
+		top:45%;
+		left:5%;
+        font-family: 'Oswald';
+    }
+    #bscyear {
+        font-size: 1em;
+        position: absolute;
+        top: 45%;
+        left: 65%;
+        font-family: 'Montserrat';
+    }
+    #london {
+        font-size: 1em;
+        position: absolute;
+        top: 48%;
+        left: 65%;
+        font-family: 'Montserrat';
+    }
+    #moduletitle {
+        font-family: 'PT Sans', ;
+        font-size: 1.1em;
+		position: absolute;
+		top:50%;
+		left:5%;
+    }
+	
+	#inprogressmodule{
+		position: absolute;
+		top:70%;
+		left:5%;
+		font-size: 1.1em;
+		
+	}
+    .Skills {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .Skills h3 {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		position: absolute;
+		left:5%;
+    }
+    .Skills hr {
+        width: 90%;
+        color: black;
+		position: absolute;
+		border:solid 2px black;
+		top:10%;
+		left:5%;
+		
+    }
+    .skill-col1 {
+        width: 100%;
+        position: relative;
+        height: 50%;
+		top:15%
+    }
+    #html-bar{
+        width: 90%;
+        height: 9%;
+		position: absolute;
+		top:20%;
+		left:5%;
+        background: lightgray;
+    }
+	
+	#css-bar{
+		width: 90%;
+        height: 9%;
+		position: absolute;
+		top:45%;
+		left:5%;
+        background: lightgray;
+		
+	}
+	
+	#javajs-bar{
+		width: 90%;
+        height: 9%;
+		position: absolute;
+		top:70%;
+		left:5%;
+        background: lightgray;
+		
+	}
+	
+	#photography{
+		width: 90%;
+        height: 9%;
+		position: absolute;
+		top:95%;
+		left:5%;
+        background: lightgray;
+		 
+	}
+	
+	#html-title{
+		position: absolute;
+		left:5%;
+		top:10%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+	
+	#css-title{
+		position: absolute;
+		left:5%;
+		top:35%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+	
+	#javasc-title{
+		position: absolute;
+		left:5%;
+		top:60%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+	
+	#Photography-title{
+		position: absolute;
+		left:5%;
+		top:85%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+
+    #htmlpercent {
+        width: 80%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #csspercent {
+        width: 50%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javascriptpercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #photogrpraphypercent {
+        width: 60%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javapercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #adobepercent {
+        width: 60%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #htmlpercent p, #csspercent p, #javascriptpercent p, #photogrpraphypercent p, #javapercent p, #adobepercent p {
+        position: absolute;
+        left: 80%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        font-weight: 700;
+    }
+     .skill-col2 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    
+	#java-title{
+		position: absolute;
+		left:5%;
+		top:40%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+	
+	#adobe-title{
+		position: absolute;
+		left:5%;
+		top:65%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: capitalize;
+	}
+	
+	#java-bar{
+        width: 90%;
+        height: 9%;
+		position: absolute;
+		top:50%;
+		left:5%;
+        background: lightgray;
+    }
+	
+	#adobe-bar{
+		width: 90%;
+        height: 9%;
+		position: absolute;
+		top:75%;
+		left:5%;
+        background: lightgray;
+		
+	}
+
+    #hoobies {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        padding: 5% 0% 0% 0%;
+    }
+    #hoobies h3 {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		position: absolute;
+		left:5%;
+		top:0%
+    }
+    #hoobies hr {
+        width: 90%;
+        color: black;
+		left:5%;
+		border:solid 2px black;
+		position: absolute;
+		top:22%
+		
+    }
+    #hoobies ul {
+		font-size: 1.1em;
+		position: absolute;
+        left: 10%;
+		top:30%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #resume {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    #resume h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		position: absolute;
+		padding: 5% 0 0 0;
+		left:5%;
+    }
+    #resume hr {
+        width: 90%;
+        color: black;
+		border:solid 2px black;
+		position: absolute;
+		top:23%;
+		left:5%;
+    }
+	#resume img{
+		position: absolute;
+		top:30%
+	}
+	#resume a{
+		position: absolute;
+		top:55%;
+		left: 50%;
+        color: #009de2;
+		text-decoration: none;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	
+    footer {
+        width: 100%;
+        height: 190px;
+        background: #232020;
+        position: relative;
+        text-align: center;
+    }
+    .footer-icon ul li {
+        width: 100%;
+        display: inline;
+        position: relative;
+        padding: 0.5%;
+        top: 40px;
+    }
+    footer nav ul li {
+        width: 100%;
+        display: inline;
+        font-size: 9pt;
+        padding: 2%;
+        position: relative;
+        top: 50px;
+        color: white;
+        text-transform: uppercase;
+    }
+    footer hr {
+        width: 80%;
+        position: relative;
+        top: 70px;
+        margin-left: 10%
+    }
+    footer p {
+        width: 100%;
+        color: white;
+        position: absolute;
+        top: 75%;
+    }
+    footer a {
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (min-device-width: 641px) and (max-device-width: 1023px)  {
+	
+	header{
+		width: 100%;
+		height: 10vh;
+		position: relative;
+		background:black;
+		
+	}
+	
+	header img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left:5%;
+			
+	}	
+	
+	.hamburger{
+		
+		position: absolute;
+		z-index: 2;
+		cursor:pointer;
+		right:5%;
+		top:50%;
+		transform: translate(-5%,-50%);
+	}
+	
+.bar{
+		width: 36px;
+		height: 4px;
+		background: white;
+		display: block;
+		margin-bottom: 5px
+	}	
+	
+	#my-links{
+		position: absolute;
+		background: black;
+		height: 100vh;
+		width: 100%;
+		z-index: 1;
+		text-align: center;
+		display:none;
+	}
+
+	.left-nav{
+		margin-top:40%		
+	}
+	
+	
+	#my-links li {
+		position: relative;
+		line-height: 50px;
+	}
+	
+	#my-links a{
+		color:white;
+		text-decoration: none;
+		font-size: 2em;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	.left-nav li a:active{
+		color:#009de2;
+		background: orange;
+	}
+.aboutMe {
+        width: 100%;
+        height: 500px;
+        position: relative;
+		padding-top: 5%;
+    }
+    .photo {
+        width: 40%;
+        height: 500px;
+        float: left;
+    }
+    .photo img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    .aboutMeDesc {
+        width: 60%;
+        height: 500px;
+        float: right;
+    }
+    .aboutMeDesc h2 {
+        color: black;
+        font-size: 1.5em;
+        position: relative;
+        top: 25%;
+        left: 15%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        margin-right: 25%;
+    }
+    .aboutMeDesc strong {
+        color: #009de2;
+        text-transform: uppercase;
+    }
+    .aboutMeDesc hr {
+        width: 40%;
+        position: relative;
+        top: 26%;
+        left: 15%;
+		border: solid 2px black;
+    }
+    .aboutMeDesc p {
+        color: black;
+        font-size: 14pt;
+        position: relative;
+        top: 28%;
+        left: 15%;
+        margin-right: 25%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";        
+		font-weight: 400;
+    }
+    .Education {
+        width: 76%;
+        height: 700px;
+        position: relative;
+        left: 12%;
+    }
+    .Education h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .Education hr {
+        width: 100%;
+		border: solid 2px black   
+	}
+    .mgssnf {
+        font-size: 15pt;
+        font-weight: 500;
+        position: relative;
+        margin-top: 2%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .alevel {
+        font-size: 15pt;
+        font-weight: bold;
+        position: relative;
+        padding-top: 0.5%;
+        font-family: 'Oswald';
+    }
+    #alevelyear {
+        font-size: 11pt;
+        position: absolute;
+        top: 15%;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #Maurtius {
+        font-size: 11pt;
+        position: absolute;
+        top: 19%;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #alevelmain {
+        position: absolute;
+        top: 15%;
+        font-family: 'PT Sans', ;
+        font-size: 13pt;
+    }
+    #alevelsubs {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        font-family: 'PT Sans', ;
+        font-size: 13pt;
+    }
+    .qmul {
+        font-size: 15pt;
+        font-weight: 500;
+        position: relative;
+        margin-top: 25%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .bsc {
+        font-size: 15pt;
+        font-weight: bold;
+        position: relative;
+        padding-top: 0.5%;
+        font-family: 'Oswald';
+    }
+    #bscyear {
+        font-size: 11pt;
+        position: absolute;
+        top: 43%;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #london {
+        font-size: 11pt;
+        position: absolute;
+        top: 47%;
+        left: 80%;
+        font-family: 'Montserrat';
+    }
+    #moduletitle {
+        font-family: 'PT Sans', ;
+        font-size: 1.1em;
+		position: absolute;
+		top:50%;
+    }
+	
+	#inprogressmodule{
+		position: absolute;
+		top:70%;
+		font-size: 1.1em;
+		
+	}
+    .Skills {
+        width: 76%;
+        height: 300px;
+        position: relative;
+        left: 12%;
+        padding-bottom: 50px;
+    }
+    .Skills h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    .Skills hr {
+        width: 100%;
+border:solid 2px black    
+	}
+    .skill-col1 {
+        width: 50%;
+        position: absolute;
+        margin-left: 0%;
+        height: 80%
+    }
+    #html-bar, #css-bar, #javajs-bar, #photography, #java-bar, #adobe-bar {
+        width: 80%;
+        height: 20px;
+        margin-left: 10%;
+        background: lightgray;
+    }
+    .skill-col1 p {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15px;
+        font: 20pt;
+        text-transform: capitalize;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #htmlpercent {
+        width: 80%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #csspercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javascriptpercent {
+        width: 50%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #photogrpraphypercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #javapercent {
+        width: 70%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #adobepercent {
+        width: 60%;
+        height: 100%;
+        background-color: #009de2;
+    }
+    #htmlpercent p, #csspercent p, #javascriptpercent p, #photogrpraphypercent p, #javapercent p, #adobepercent p {
+        position: relative;
+        width: 100%;
+        left: 80%;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+        font-weight: 800;
+    }
+    .skill-col2 {
+        width: 50%;
+        position: absolute;
+        margin-left: 50%;
+        height: 100%
+    }
+    .skill-col2 p {
+        width: 100%;
+        margin-left: 10%;
+        margin-top: 15px;
+        font: 20pt;
+        text-transform: capitalize;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #hoobies {
+        width: 76%;
+        height: 175px;
+        position: relative;
+        left: 12%;
+        padding: 50px 0px 25px 0px;
+    }
+    #hoobies h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #hoobies hr {
+        width: 100%;
+		border:solid 2px black;   
+	}
+    #hoobies ul {
+		padding-top: 10%;
+        font-size: 1.1em;
+		position: absolute;
+        left: 10%;
+		top:30%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #resume {
+        width: 76%;
+        height: 300px;
+        position: relative;
+        left: 12%;
+        padding: 25px 0px;
+    }
+    #resume h3 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+    #resume hr {
+        width: 100%;
+		border:solid 2px black;		
+    }
+	#resume a {
+		position: absolute;
+		top:50%;
+        color: #009de2;
+		text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    }
+	
+	footer{
+	width: 100%;
+	height: 190px;
+	background: #232020;
+	position: relative;
+	text-align:center;
+	
+}
+
+.footer-icon ul li{
+	width: 100%;
+	display: inline;
+	position: relative;
+	padding: 0.5%;
+	top:40px;
+}
+	
+footer nav ul li{
+	width: 100%;
+	display: inline;
+	font-size:9pt;
+	padding:2%;
+	position:relative;
+	top:50px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+footer hr{
+	width:80%;
+	position: relative;
+	top: 70px;
+	margin-left:10%	
+}
+
+
+	
+	footer p{
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 75%;
+	
+}
+	
+	footer a{
+		text-decoration: none;
+	}	
+	
+}
+
+

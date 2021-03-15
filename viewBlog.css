@@ -1,0 +1,1259 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:100%;
+	position: relative;
+}
+
+#login_btn{
+	text-decoration: none;
+	text-align: center
+}
+
+#login_btn:hover{
+		background: #5BFDFF;	
+		color:black;
+}
+@media screen and (min-width: 1024px){
+header img{
+	position: absolute;
+	z-index: 1;
+	width:90px;
+	height: 90px;
+	left:53vw;
+	transform: translate(-50%,0%)
+}
+
+.left-nav ul li {
+	text-decoration: none;
+	display: inline;
+	float: left;
+	font-size:1.3em ;
+	padding: 1.5% 3%;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.right-nav ul li {
+	text-decoration: none;
+	display: inline;
+	float:right;
+	font-size:1.3em;
+	padding: 1.5% 3%;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.left-nav a , .right-nav a {
+	text-decoration: none;
+	color:black;
+	position: relative;
+	z-index: 1;
+
+}
+
+.left-nav a:hover, .right-nav a:hover{
+	color: #009de2;
+}
+
+	aside{
+		background: grey;
+		
+	}
+	
+	#login_btn{
+		position: absolute;
+		width: 70px;
+		height: 15px;
+		right:3.5%;
+		top:55px;
+		transform: translate(-3.5% -55px);
+		font-size: 1.0em;
+		background:#2D92EB;
+		color: white;
+		border: none;
+		font-weight: 800;
+		padding:0.5% 1%;
+		border-radius: 10px;
+		cursor: pointer;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		z-index: 1;
+	}
+	
+	#welcomeMsg{
+		position: absolute;
+		right:3.5%;
+		top:60px;
+		font-weight: 700;
+		font-size: 1.1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color:rgba(60,130,215,1.00)
+	}
+	
+	#signout{
+		position: absolute;
+		top:80px;
+		right: 3.5%;
+		z-index: 1;
+		font-weight:700;
+		text-decoration:none;
+		font-size: 1.1em;
+		color:rgba(136,71,72,1.00);
+		
+	
+	}
+	#signout:hover{
+		color:rgba(219,30,33,1.00)
+	}
+	
+	.main{
+		height: auto;
+		width:100%;
+		position: relative;
+		
+	}
+	
+	#addPostBtn{
+		position: absolute;
+		right: 3%;	
+		top:875px;
+		background: black;
+		text-decoration: none;
+		color: white;
+		padding: 1%;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 1em;
+		font-weight: 700;
+	}
+	
+	#addPostBtn:hover{
+		background: rgba(36,150,223,1.00);
+	}
+	
+	.topSection{
+		position: relative;
+		width: 100%;
+		height: 700px;
+	}
+	
+	#top-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:25%;
+		left:38%;
+	}
+	
+	#first-line{
+		position: absolute;
+		font-size:2.0em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:30%;
+		left: 15%;
+		letter-spacing:10px;
+	}
+	
+	#second-line{
+		position: absolute;
+		font-size:2.0em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:40%;
+		left:19%;
+		letter-spacing:10px;
+	}
+	
+	#bottom-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:50%;
+		left:28%;
+	}
+	
+	.main img{
+		position: absolute;
+		right:5%;
+		top:15%;
+		z-index: 2;
+	}
+	
+	#latest-post-background{
+		position: absolute;
+		width:70%;
+		height: 50%;
+		background: rgba(0,157,226,0.60);
+		top:75%;
+		z-index: 1;
+	}
+	
+	#mainLatestTitle{
+		position: absolute;
+		color:white;
+		font-size: 1.3em;
+		top:10%;
+		left:5%;
+		font-weight: 600;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: uppercase
+	}
+	
+	#latestPost{
+		position: absolute;
+		width:75%;
+		height:90%; 
+		background: #e1e6e8;
+		top:25%;
+		left:5%;
+		
+	}
+	
+	#latestDateAndTime{
+		color:rgba(38,35,35,1.00);
+		position: absolute;
+		right:5%;
+		top:5%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#latestTitle{
+		color:rgba(38,35,35,1.00);
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:13%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#latestDesc{
+		color:rgba(38,35,35,1.00);		
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:30%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	#latestPostLine{
+		border:solid rgba(38,35,35,1.00) 3px;
+		width:80%;
+		position: absolute;
+		bottom:10%;
+		left: 10%;
+	}	
+
+	#blogSection{
+		position: relative;
+		width: 70%;
+		height: auto;
+		margin-top: 20%;
+		margin-left:15%;
+		padding-bottom: 10px;
+		
+	}
+	
+	/*Preview Section*/
+	
+	#previewBlogPost{ 
+		position: relative;
+		width: 100%;
+		height: 200px;
+		margin-top: 0%;
+		background: rgba(0,157,226,0.60);
+	}
+	
+	#previewDateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#previewTitle{
+		color:white;
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:10%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#previewDesc{
+		color:white;
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:25%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	#previewPostLine{
+		border:solid white 3px;
+		width:80%;
+		position: absolute;
+		bottom:10%;
+		left: 10%;
+	}
+	
+	#post_Btn{
+		background: black;
+		color:white;
+		border:none;
+		padding: 1% 3%;
+		cursor: pointer;
+		margin-left:45%;
+		text-decoration: none;
+	}
+	
+	#backBtn{
+		position:relative;
+		background: black;
+		color:white;
+		border:none;
+		padding: 1% 3%;
+		cursor: pointer;
+		margin-top:3%;
+		margin-left:50%;
+	}
+	
+	/*END Preview Section*/
+	
+	#blogPost{ 
+		position: relative;
+		width: 100%;
+		height: 200px;
+		margin-top: 1%;
+		background: rgba(0,157,226,0.60); 
+	}
+	
+	#dateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#title{
+		color:white;
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:10%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#desc{
+		color:white;
+		position: absolute;
+		left:5%;
+		right:5%;
+		top:25%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	#postLine{
+		border:solid white 3px;
+		width:80%;
+		position: absolute;
+		bottom:10%;
+		left: 10%;
+	}	
+
+	footer {
+        width: 100%;
+        height: 190px;
+        background: #232020;
+        position: relative;
+        bottom: 0px;
+    }
+    .footer-icon ul li {
+        display: inline;
+        position: relative;
+        padding: 0.5%;
+        top: 40px;
+        left: 42%
+    }
+    footer nav ul li {
+        display: inline;
+        font-size: 10pt;
+        padding: 2%;
+        position: relative;
+        top: 50px;
+        left: 25%;
+        color: white;
+        text-transform: uppercase;
+    }
+    footer hr {
+        width: 80%;
+        position: relative;
+        top: 70px;
+        margin-left: 10%
+    }
+    footer p {
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 40%
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+    footer a li:hover {
+        color: #009de2;
+    }
+
+	
+	
+
+}
+
+@media screen and (min-device-width: 641px) and (max-device-width: 1023px){
+header{
+		width: 100%;
+		height: 10vh;
+		position: relative;
+		background:black;
+		
+	}
+	
+	header img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left:5%;
+	z-index:4;
+	
+	}	
+	
+	.hamburger{
+		
+		position: absolute;
+		z-index: 4;
+		cursor:pointer;
+		right:5%;
+		top:50%;
+		transform: translate(-5%,-50%);
+	}
+	
+.bar{
+		width: 36px;
+		height: 4px;
+		background: white;
+		display: block;
+		margin-bottom: 5px
+	}	
+	
+	#my-links{
+		position: absolute;
+		background: black;
+		height: 100vh;
+		width: 100%;
+		z-index: 3;
+		text-align: center;
+		display:none;
+	}
+
+	.left-nav{
+		margin-top:40%		
+	}
+	
+	
+	#my-links li {
+		position: relative;
+		line-height: 50px;
+	}
+	
+	#my-links a{
+		color:white;
+		text-decoration: none;
+		font-size: 2em;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	.left-nav li a:active{
+		color:#009de2;
+		background: orange;
+	}
+
+	 #login_btn{
+		width: 150px;
+		height: 40px;
+		position: absolute;
+		right:3.5%;
+		top:100px;
+		font-size:1em; 
+		background:#2D92EB;
+		color: white;
+		border: none;
+		font-weight: 800;
+		padding:1% 3%;
+		border-radius: 10px;
+		 cursor: pointer;
+	}
+	
+	#welcomeMsg{
+		position: absolute;
+		right:3.5%;
+		top:80px;
+		font-weight: 700;
+		font-size: 1.6em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color:rgba(60,130,215,1.00)
+	}
+	
+	#signout{
+		position: absolute;
+		top:125px;
+		right: 3.5%;
+		z-index: 1;
+		font-weight:700;
+		text-decoration:none;
+		font-size: 1.1em;
+		color:rgba(136,71,72,1.00);
+		background:rgba(20,118,199,1.00);
+		padding: 1%;
+	
+	}
+	#signout:hover{
+		color:rgba(219,30,33,1.00)
+	}
+	.main{
+		height: auto;
+		width:100%;
+		position: relative;
+		
+	}
+	
+	#addPostBtn{
+		position: absolute;
+		right: 3%;	
+		top:850px;
+		background: black;
+		text-decoration: none;
+		color: white;
+		padding: 1%;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 1em;
+		font-weight: 700;
+	}
+	
+	.topSection{
+		position: relative;
+		width: 100%;
+		height: 700px;
+	}
+	
+	#top-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:25%;
+		left:38%;
+	}
+	
+	#first-line{
+		position: absolute;
+		font-size:2.0em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:30%;
+		left: 15%;
+		letter-spacing:10px;
+	}
+	
+	#second-line{
+		position: absolute;
+		font-size:2.0em;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:40%;
+		left:5%;
+		letter-spacing:10px;
+	}
+	
+	#bottom-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:50%;
+		left:28%;
+	}
+	
+	.main img{
+		position: absolute;
+		right:5%;
+		top:15%;
+		z-index: 2;
+	}
+	
+	#latest-post-background{
+		position: absolute;
+		width:70%;
+		height: 40%;
+		background: rgba(0,157,226,0.60);
+		top:75%;
+		z-index: 1;
+	}
+	
+	#mainLatestTitle{
+		position: absolute;
+		color:white;
+		font-size: 1.3em;
+		top:15%;
+		left:5%;
+		font-weight: 600;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: uppercase
+	}
+	
+	#latestPost{
+		position: absolute;
+		width:80%;
+		height:70%; 
+		padding-bottom: 5%;
+		background: #e1e6e8;
+		top:40%;
+		left:5%;
+		overflow:auto;
+	}
+	
+	#latestDateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#latestTitle{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:7%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#latestDesc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:2%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-overflow: ellipsis;
+
+	}
+	
+	
+	#blogSection{
+		position: relative;
+		width: 70%;
+		height: auto;
+		margin-top: 25%;
+		margin-left:15%;
+		padding-bottom: 50px;
+	}
+	
+	/*PREVIEW SECTION*/
+	
+	#previewBlogPost{ 
+		position: relative;
+		width: 100%;
+		height:auto;
+		margin-top: 3%;
+		padding: 2% 0% 5% 0%;
+		background: rgba(0,157,226,0.60);
+	}
+	
+	#previewDateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#previewTitle{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:7%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#previewDesc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	#previewPostLine{
+		position: relative;
+		border:solid white 3px;
+		width:80%;
+		margin-left: 10%;
+		margin-top: 2%
+	}
+	
+	#blogPost{ 
+		position: relative;
+		width: 100%;
+		height:auto;
+		margin-top: 3%;
+		padding: 2% 0% 5% 0%;
+		background: rgba(0,157,226,0.60);
+	}
+	
+	#dateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#title{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:7%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#desc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	#postLine{
+		position: relative;
+		border:solid white 3px;
+		width:80%;
+		margin-left: 10%;
+		margin-top: 2%
+	}
+	
+	footer{
+	width: 100%;
+	height: 190px;
+	background: #232020;
+	position: relative;
+	text-align:center;
+}
+
+.footer-icon ul li{
+	width: 100%;
+	display: inline;
+	position: relative;
+	padding: 0.5%;
+	top:40px;
+}
+	
+footer nav ul li{
+	width: 100%;
+	display: inline;
+	font-size:9pt;
+	padding:2%;
+	position:relative;
+	top:50px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+footer hr{
+	width:80%;
+	position: relative;
+	top: 70px;
+	margin-left:10%	
+}
+
+
+	
+	footer p{
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 75%;
+	
+}
+	
+	footer a{
+		text-decoration: none;
+	}	
+
+}
+
+
+@media screen and (max-device-width: 640px) and (orientation: portrait){
+		
+header{
+	position: relative;
+	width:100%;
+	height: 10vh;
+	background: black;
+}	
+	
+header img{
+	width: 60px;
+	height: 70px;
+	position: absolute;
+	left:5%;
+	z-index: 3;
+	
+	}	
+	
+.hamburger{
+		
+		position: absolute;
+		z-index: 3;
+		cursor:pointer;
+		right:5%;
+		top:50%;
+		transform: translate(-5%,-50%);
+	}
+	
+.bar{
+		width: 36px;
+		height: 4px;
+		background: white;
+		display: block;
+		margin-bottom: 5px
+	}	
+	
+	
+	#my-links button{
+		position: absolute;
+		width:150px;
+		height: 50px;
+		font-size: 2em;
+		padding: 2% 4%;
+		top:10%;
+		right: 5%;
+		background: #009de2;
+		border: none;
+		color:white;
+	}
+	
+	#my-links{
+		position: absolute;
+		background: black;
+		height: 100vh;
+		width: 100%;
+		z-index: 2;
+		text-align: center;
+		display:none;
+	}
+
+	.left-nav{
+		margin-top:40%		
+	}
+	
+	
+	#my-links li {
+		position: relative;
+		line-height: 50px;
+	}
+	
+	#my-links a{
+		color:white;
+		text-decoration: none;
+		font-size: 2em;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	.left-nav li a:active{
+		color:#009de2;
+		background: orange;
+	}
+
+	#login_btn{
+		width: 120px;
+		height: 35px;
+		position: absolute;
+		right:3.5%;
+		top:70px;
+		font-size:1em; 
+		background:#2D92EB;
+		color: white;
+		border: none;
+		font-weight: 800;
+		padding:1% 3%;
+		border-radius: 10px;
+		cursor: pointer;
+		
+	}
+	
+	#welcomeMsg{
+		position: absolute;
+		right:3.5%;
+		top:80px;
+		font-weight: 700;
+		font-size: 1.2em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color:rgba(60,130,215,1.00)
+	}
+	
+	#signout{
+		position: absolute;
+		top:115px;
+		right: 3.5%;
+		z-index: 1;
+		font-weight:700;
+		text-decoration:none;
+		font-size: 1.0em;
+		color:rgba(136,71,72,1.00);
+		background:rgba(20,118,199,1.00);
+		padding: 0.5%;
+	
+	}
+	#signout:hover{
+		color:rgba(219,30,33,1.00)
+	}
+	
+	.main{
+		height: auto;
+		width:100%;
+		position: relative;
+	}
+	
+	#addPostBtn{
+		position: absolute;
+		right: 3%;	
+		top:800px;
+		background: black;
+		text-decoration: none;
+		color: white;
+		padding: 1%;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 1em;
+		font-weight: 700;
+	}
+	.topSection{
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		background:url("Images/hero1.jpg");
+		background-repeat: no-repeat;
+	}
+	
+	#top-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:25%;
+		left:70%;
+		z-index: 2;
+	}
+	
+	#first-line{
+		position: absolute;
+		font-size:2.0em;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:32%;
+		left: 10%;
+		letter-spacing:10px;
+		z-index: 3;
+	}
+	
+	#second-line{
+		position: absolute;
+		font-size:1.7em;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		top:40%;
+		left:15%;
+		letter-spacing:5px;
+		z-index: 3;
+	}
+	
+	#bottom-bar{
+		position: absolute;
+		width: 50px;
+		height: 6px;
+		background:black;
+		top:50%;
+		left:15%;
+		z-index: 3;
+	}
+	
+	.topSection img{
+		position: absolute;
+		width:80%;
+		right:10%;
+		top:15%;
+		z-index: 2;
+		background-size: cover;
+		display: none;
+	}
+	
+	#latest-post-background{
+		position: absolute;
+		width:80%;
+		height: 25%;
+		background: rgba(0,157,226,0.60);
+		top:80%;
+		z-index: 1;
+	}
+	
+	#mainLatestTitle{
+		position: absolute;
+		color:white;
+		font-size: 1.3em;
+		top:10%;
+		left:5%;
+		font-weight: 600;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-transform: uppercase
+	}
+	
+	#latestPost{
+		position: absolute;
+		width:80%;
+		height:90%; 
+		background: #e1e6e8;
+		top:32%;
+		left:5%;
+		padding-bottom: 2%;
+		overflow:auto;
+	}
+	
+	#latestDateAndTime{
+		color:pink;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#latestTitle{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:7%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#latestDesc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:2%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		text-overflow: ellipsis;
+	}
+	
+	#blogSection{
+		position: relative;
+		width: 70%;
+		height: auto;
+		margin-top: 35%;
+		margin-left:15%;
+		
+	}
+	
+	#previewBlogPost{ 
+		position: relative;
+		width: 100%;
+		height:auto;
+		margin-top: 3%;
+		padding: 2% 0% 7% 0%;
+		background: rgba(0,157,226,0.60);
+	}
+	
+	#previewDateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#previewTitle{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:15%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#previewDesc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	#previewPostLine{
+		position: relative;
+		border:solid white 3px;
+		width:80%;
+		margin-left: 10%;
+		
+	}
+	
+	#backBtn{
+		backgroud-color:black;
+		color:white;
+		padding:12.5% 50px;
+	}
+	
+	
+	
+	#blogPost{ 
+		position: relative;
+		width: 100%;
+		height:auto;
+		margin-top: 3%;
+		padding: 2% 0% 7% 0%;
+		background: rgba(0,157,226,0.60);
+	}
+	
+	#dateAndTime{
+		color:white;
+		position: absolute;
+		right:5%;
+		top:3%;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	}
+	
+	#title{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:15%;
+		font-size: 1.5em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 700;
+	}
+	
+	#desc{
+		position: relative;
+		color:white;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5%;
+		font-size: 1em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		
+	}
+	
+	#postLine{
+		position: relative;
+		border:solid white 3px;
+		width:80%;
+		margin-left: 10%;
+		
+	}	
+	
+	footer {
+        width: 100%;
+        height: 190px;
+        background: #232020;
+        text-align: center;
+		position: absolute;
+		margin-top: 100%;
+		
+    }
+    .footer-icon ul li {
+        width: 100%;
+        display: inline;
+        position: relative;
+        padding: 0.5%;
+        top: 40px;
+    }
+    footer nav ul li {
+        width: 100%;
+        display: inline;
+        font-size: 9pt;
+        padding: 2%;
+        position: relative;
+        top: 50px;
+        color: white;
+        text-transform: uppercase;
+    }
+    footer hr {
+        width: 80%;
+        position: relative;
+        top: 70px;
+        margin-left: 10%
+    }
+    footer p {
+        width: 100%;
+        color: white;
+        position: absolute;
+        top: 75%;
+    }
+    footer a {
+        text-decoration: none;
+    }
+	
+	
+
+}
+
+

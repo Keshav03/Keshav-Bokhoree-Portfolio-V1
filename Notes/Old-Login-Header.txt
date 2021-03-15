@@ -1,0 +1,58 @@
+<header>
+		<img id="headerlogo" src="Images/Icon/logo5.png" alt="" width="90px" height="90px">
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Shop</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="signin-button">
+			<a href="">Sign In</a>
+		</div>
+	</header>
+
+
+
+
+
+//////////////////////////////////////////////////
+///////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+
+
+
+
+
+
+header{
+	height:  80px;
+}
+
+header img{
+	position: absolute;
+	left:5%;
+	top:1%;
+}
+header nav ul{
+	margin-left: 22%;
+	padding-top: 3%
+}
+
+header nav ul li{
+	display:inline;
+}
+
+header nav ul li a{
+	text-decoration:none;
+	color:black;
+	padding: 3%;
+	font-size: 15pt;
+	font-weight: 500;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+}

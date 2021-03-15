@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Keshav Bokhoree - Sign Up</title>
+<link rel="shortcut icon" type="image/png" href="Images/Icon/logo5.png">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="signup.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src= "signup.js"></script>
+</head>
+
+<body>	
+	<div id="main">
+		<div class="details">
+			<img src="Images/Icon/logo5.png" alt="">
+			<h2>Sign up</h2>
+			<form action="signup.php" method="post" onsubmit="return validatePassword()">
+			<input id="firstName" type="text" placeholder="First Name" name="fname" required>
+			<input id="lastName" type="text" placeholder="Last Name" name="lname" required>
+			<input id="email" type="email" placeholder="Email Address" name="email" required>
+			<input id="pass" type="password" placeholder="Password" name="password" minlength="5" >
+			<input id="conpass" type="password" placeholder="Confirm Password" minlength="5" name="confirmmpassword" >	
+			<br>
+			<button type="submit">Continue</button>
+			</form>	
+			<a href="login.html">Sign In</a>
+			<p>Copyright © 2020</p>
+		</div>
+	</div>
+</body>
+</html>
